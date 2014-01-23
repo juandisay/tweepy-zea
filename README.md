@@ -6,15 +6,15 @@ Tweepy Bot, robot twit otomatis.
 
 # Install
 
-sudo apt-get install python-pip
+1. $ sudo apt-get install python-pip
 
-pip install tweepy
+2. $ pip install tweepy
 
 
 
 # Usage
 
-python tweepy-bot.py tweepy-twit.txt
+1. $ python tweepy-bot.py tweepy-twit.txt
 
 
 # Done!
