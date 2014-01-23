@@ -5,12 +5,12 @@ import tweepy, time, sys
 
 argfile = str(sys.argv[1])
 
-# Masukan informasi berdasarkan aplikasi twitter yang di buat
+# Masukan informasi berdasarkan aplikasi twitter yang di buat (informasi ini rahasia!)
 
-CONSUMER_KEY = 'AOKKBFq3rQ1KdzOtrd6jKQ'
-CONSUMER_SECRET = 'YpFIWHfz13H6dkrLO8SF0l2rZkooBWlBLAMzlyOeVg0'
-ACCESS_KEY = '166649152-kviqTRpj7xOjRkshVjdJN5kcCiP9RPdCngKSWqFz'
-ACCESS_SECRET = 'auM52W2Boq2lonJnRebt3lnSGGWZnwS9V2znMJqYgOsJj'
+CONSUMER_KEY = 'AOKKBFq3r****************'
+CONSUMER_SECRET = 'YpFIWHfz1************************************'
+ACCESS_KEY = '166649152-kviq************************************'
+ACCESS_SECRET = 'auM52W2Boq2************************************'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
