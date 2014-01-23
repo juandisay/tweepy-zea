@@ -14,7 +14,9 @@ Tweepy Bot, robot twit otomatis.
 
 # Usage
 
-1. $ python tweepy-bot.py tweepy-twit.txt
+1. $ nano tweepy-twit.txt
+
+2. $ python tweepy-bot.py tweepy-twit.txt
 
 
-# Done!
+# Enjoy!
